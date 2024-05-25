@@ -1,0 +1,233 @@
+aws.amazon.com
+EC2
+Linux -- Start
+
+--------------
+
+putty
+
+ppk
+
+ubuntu@ec2-13-127-21-85.ap-south-1.compute.amazonaws.com
+
+----------------------------
+
+two types of users
+--------------------------
+
+
+
+1) Normal User  --  $
+
+2) root user   --  #
+
+
+-----------------------
+
+
+ubuntu  -------------->  root
+
+
+    sudo   su  root
+
+sudo  --- superuser do
+
+su  ubuntu
+----------------------------------------------
+Three types of permissions
+
+
+read                   --  r
+write              ---   w
+execute        ---     x
+
+-----------------------
+Three type of users
+
+1) owner
+2) group
+3) others
+
+
+      _ _ _               _ _ _            _ _ _
+  
+
+   owner               group           others
+
+  
+  rw-                 rw-                    r   --      f6
+
+------------------------
+change the permissions
+
+1 ) Numerical notation
+2) Alphabetical notation
+
+
+Numerical notation
+-----------------------
+
+read
+write
+execute
+
+
+r   --------------  4
+w -------------   2
+x  -----------     1
+
+
+  rw-             rw-             r--                  --  f6
+
+ rwx            rw-               r--                       f6
+
+
+chmod  764              f6
+
+chmod 777     f6
+
+7 ----------  rwx
+6  --- rw
+5 --       r-x
+4 ------------  r
+3 --------- wx
+2 ------ w
+1 ----- x
+0  ---- No permissions
+
+
+chmod 700   f6
+
+
+
+2) Alphabetical notation
+
+
+owner  --------   u
+group      -------  g
+others   --------- o
+
+
++
+-
+  
+ rw-          rw-      r--                 --  f1
+
+rwx          rw-      r--                 --  f1
+
+chmod  u+x     f1
+
+chmod  u-x     f1
+
+-----------------------------
+
+
+
+   rw-      rw-       r--                        --  f20
+
+   rw-       r--        r-x           -- f20
+
+
+
+chmod  g-w,o+x     f20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

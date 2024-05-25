@@ -1,0 +1,20 @@
+
+
++++++++++++++++++++++
+
+
+Git Amend
+----------------
+
+$ git commit  --amend  -m "a"
+
+
+How to go back to previous version of code
+----------------------------------------------
+git reset --hard f356e50
+
+
+
+
+
+
